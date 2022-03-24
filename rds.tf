@@ -5,7 +5,7 @@ resource "aws_db_instance" "rds" {
   engine_version         = "postgres13"
   instance_class         = "db.t2.micro"
   multi_az               = true
-  name                   = "mydb"
+  db_name                = "mydb"
   username               = "username"
   password               = "password"
   skip_final_snapshot    = true
