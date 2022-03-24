@@ -14,7 +14,7 @@ resource "aws_db_instance" "rds" {
 
 resource "aws_db_subnet_group" "subnet_group" {
   name       = "main"
-  subnet_ids = [aws_subnet.public-subnet-1.id, aws_subnet.public-subnet-2.id]
+  subnet_ids = [aws_subnet.public-1.id, aws_subnet.public-2.id]
 
   tags = {
     Name = "Test DB subnet group"
