@@ -8,6 +8,7 @@ Improvements to be made if I had more time:
 * Store state file externally e.g. S3/DyanmoDB
 * Improve code to allow to be easily deploy into multiple environments 
 * Use HTTPS for connections + certificates 
+* Use secrets for RDS password (e.g. vault secret) 
 
 Resources:
 * VPC
